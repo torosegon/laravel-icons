@@ -9,7 +9,7 @@ This package is replacing "icon fonts", no more extra bytes, no more extra load 
 You can install the package via composer:
 
 ```bash
-composer require `torosegon/laravel-icons`
+composer require torosegon/laravel-icons
 ```
 
 ## Usage
