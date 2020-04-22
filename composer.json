@@ -1,0 +1,50 @@
+{
+    "name": "torosegon/laravel-icons",
+    "description": "Easily using your svg icons in Laravel Blade views",
+    "keywords": [
+        "Blade",
+        "Icons",
+        "SVG",
+        "Laravel"
+    ],
+    "homepage": "https://github.com/torosegon/laravel-icons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egon Richárd Tőrös",
+            "email": "egon@torosegon.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/console": "^7.0",
+        "illuminate/view": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelIcons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelIcons\\Providers\\LaravelIconsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
